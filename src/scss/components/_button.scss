@@ -1,0 +1,10 @@
+.start__project
+{
+  @include button-variant($primary_color, $primary_color);
+  border-radius: 30px;
+  padding:$gutter__space/2 $gutter__space;
+  text-transform: uppercase;
+}
+
+
+

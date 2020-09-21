@@ -1,0 +1,32 @@
+
+// Base Theme color schemes
+$primary_color: #CA2223;
+$secondary_color: #0E364C;
+
+
+// common color shades
+$body_bg : #fff;
+$white: #fff;
+
+// fonts
+$font_size_base: 16;
+$font_base_line_height: 1.4;
+$font_primary: 'Poppins', sans-serif;
+$font_extra_light: 200;
+$font_medium: 500;
+$font_semi_bold: 600;
+$font_bold: 700;
+$font_extra_bold: 800;
+
+
+// spacing
+$gutter__space: 20px;
+
+
+// breakpoints
+$breakpoint__large: 1200px;
+$breakpoint__medium: 991px;
+$breakpoint__small: 767px;
+
+
+$main__height: calc(100vh);
