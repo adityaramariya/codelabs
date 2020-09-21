@@ -16,4 +16,4 @@ var t,e=arguments[3];!function(e,n){"object"==typeof exports&&"undefined"!=typeo
 },{"jquery":"juYr","popper.js":"loUd"}],"d6sW":[function(require,module,exports) {
 "use strict";require("jquery/dist/jquery.js"),require("bootstrap/dist/js/bootstrap");var e=window.scrollY,r=document.querySelector("body"),t=document.querySelector("header nav"),o=document.querySelector("main"),s=o.offsetHeight,n=t.offsetHeight,c=function(){return r.classList.add("scrolled")},i=function(){return r.classList.remove("scrolled")};window.addEventListener("scroll",function(){(e=window.scrollY)>s-n?c():i()});
 },{"jquery/dist/jquery.js":"juYr","bootstrap/dist/js/bootstrap":"BQpi"}]},{},["d6sW"], null)
-//# sourceMappingURL=/main.d9469835.js.map
+//# sourceMappingURL=main.d9469835.js.map

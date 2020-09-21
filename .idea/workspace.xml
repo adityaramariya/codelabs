@@ -22,18 +22,7 @@
       <change beforePath="$PROJECT_DIR$/dist/main.fb6bbcaf.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.fb6bbcaf.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/style.a6dae8f7.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.a6dae8f7.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/style.a6dae8f7.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.a6dae8f7.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/about.0271912a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/banner-1.21a4ed80.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/banner-2.8b42bf2d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/banner-3.4be0fc53.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/logo.22d9db8a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.d9469835.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.d9469835.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/style.8ef9fd39.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/style.8ef9fd39.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +91,7 @@
       <workItem from="1600568297096" duration="7519000" />
       <workItem from="1600663831418" duration="9399000" />
       <workItem from="1600674810126" duration="5262000" />
-      <workItem from="1600694573093" duration="726000" />
+      <workItem from="1600694573093" duration="1147000" />
     </task>
     <servers />
   </component>

@@ -1,8 +1,8 @@
 {
   "name": "codelabs",
   "scripts": {
-    "start": "parcel serve ./src/index.html --no-cache --public-url /",
-    "build": "parcel build ./src/index.html --no-cache --public-url /"
+    "start": "parcel serve ./src/index.html --public-url ./",
+    "build": "parcel build ./src/index.html  --public-url ./"
   },
   "devDependencies": {
     "parcel": "^2.0.0-beta.1",
