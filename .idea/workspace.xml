@@ -17,15 +17,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="854762f2-8ed6-441d-9f76-4ecb1fbf94d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.fb6bbcaf.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.fb6bbcaf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.fb6bbcaf.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.fb6bbcaf.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.a6dae8f7.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.a6dae8f7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.a6dae8f7.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.a6dae8f7.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/about.0271912a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/banner-1.21a4ed80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/banner-2.8b42bf2d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/banner-3.4be0fc53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/logo.22d9db8a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.d9469835.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.d9469835.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/style.8ef9fd39.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/style.8ef9fd39.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pottery-4286961_1920 1.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/variable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/variable.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +54,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -92,7 +101,8 @@
       <workItem from="1600514125477" duration="10092000" />
       <workItem from="1600568297096" duration="7519000" />
       <workItem from="1600663831418" duration="9399000" />
-      <workItem from="1600674810126" duration="5149000" />
+      <workItem from="1600674810126" duration="5262000" />
+      <workItem from="1600694573093" duration="726000" />
     </task>
     <servers />
   </component>
@@ -164,9 +174,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="761" y="426" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600574371017" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600679848808">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600695274116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600679848808" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600695274116" />
   </component>
 </project>
