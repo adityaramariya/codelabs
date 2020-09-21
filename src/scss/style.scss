@@ -315,6 +315,16 @@ header
         }
       }
 
+      li
+      {
+        &:nth-child(1)
+        {
+          @media (max-width: $breakpoint__extra__large) {
+            display: none;
+          }
+        }
+      }
+
       .nav-item.active > a,
       .nav-item > a:hover
       {

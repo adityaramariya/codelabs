@@ -10189,6 +10189,11 @@ header nav.navbar .navbar-nav li > a {
     padding-right: 60px !important;
   }
 }
+@media (max-width: 1450px) {
+  header nav.navbar .navbar-nav li:nth-child(1) {
+    display: none;
+  }
+}
 header nav.navbar .navbar-nav .nav-item.active > a,
 header nav.navbar .navbar-nav .nav-item > a:hover {
   background-color: #CA2223;
