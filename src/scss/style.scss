@@ -149,7 +149,7 @@ main{
       text-transform: capitalize;
 
       @media(min-width:$breakpoint__large) {
-        font-size: 65px;
+        font-size: $heading__large;
       }
     }
     + img
@@ -269,7 +269,7 @@ header
       }
     }
 
-    #mainNavigation
+    .mainNavigation
     {
       height: 100%;
     }
@@ -319,34 +319,74 @@ header
   }
 }
 
-
 section
 {
   height: 100%;
   width: 100%;
-
-  .about__us
+  &.dark__bg
   {
+    background-color: $gray__dark;
+    color: $white;
+  }
+
+  &.light__bg
+  {
+    background-color: $white;
+    color: $gray__dark;
+  }
+
+  &.primary__bg
+  {
+    background-color: $primary_color;
+    color: $white;
+  }
+}
+
+
+
+section
+{
+  .about__us {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     height: 100%;
     $this: &;
 
-    img
-    {
+    img {
       height: 100%;
       object-fit: cover;
+    }
+
+    &--flex-2
+    {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex: 1;
     }
 
     &__content {
       flex:1;
       padding: 100px;
-      color: white;
-      background: #222;
       display: flex;
       flex-direction: column;
       justify-content: center;
+      h2
+      {
+        @media(min-width:$breakpoint__large) {
+          font-size: $heading__large;
+          font-weight: $font_extra_bold;
+          line-height: 1;
+        }
+      }
+      
+      .lead
+      {
+        text-transform: capitalize;
+        font-size: 35px;
+        margin-bottom: $gutter__space * 2;
+      }
     }
   }
 }
@@ -362,12 +402,10 @@ body.scrolled
       bottom: auto;
       .container
       {
-        max-width: 100%;
-
         .navbar-brand,
         button.btn-primary
         {
-          width: 200px;
+          width: 170px;
           visibility: visible;
           opacity: 1;
         }
@@ -380,4 +418,23 @@ body.scrolled
       }
     }
   }
+}
+
+
+.container{
+  max-width: 100%;
+  @media(min-width: $breakpoint__extra__large)
+  {
+    max-width: $container__max__width__extra__large;
+  }
+}
+
+.p--100
+{
+  padding: 100px;
+}
+
+.about__us--more
+{
+  padding: 0 50px;
 }

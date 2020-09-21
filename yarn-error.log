@@ -2,7 +2,7 @@ Arguments:
   C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add --json sass -D
 
 PATH: 
-  C:\Users\ADMIN\AppData\Local\Temp\yarn--1600568342366-0.17311670265772872;C:\Users\ADMIN\Desktop\Project\codelabs\node_modules\.bin;C:\Users\ADMIN\AppData\Local\Yarn\Data\link\node_modules\.bin;C:\Program Files\libexec\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\ADMIN\Desktop\Project\codelabs\node_modules\.bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Users\ADMIN\AppData\Local\Microsoft\WindowsApps;C:\Users\ADMIN\AppData\Roaming\npm;C:\Users\ADMIN\AppData\Local\Yarn\bin
+  C:\Users\ADMIN\AppData\Local\Temp\yarn--1600670590214-0.7417095548860664;C:\Users\ADMIN\Desktop\Project\codelabs\node_modules\.bin;C:\Users\ADMIN\AppData\Local\Yarn\Data\link\node_modules\.bin;C:\Program Files\libexec\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\ADMIN\Desktop\Project\codelabs\node_modules\.bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Users\ADMIN\AppData\Local\Microsoft\WindowsApps;C:\Users\ADMIN\AppData\Roaming\npm;C:\Users\ADMIN\AppData\Local\Yarn\bin
 
 Yarn version: 
   1.22.5
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: EPERM: operation not permitted, unlink 'C:\Users\ADMIN\Desktop\Project\codelabs\node_modules\@babel\code-frame\lib'
+  Error: EPERM: operation not permitted, unlink 'C:\Users\ADMIN\Desktop\Project\codelabs\node_modules\@parcel\source-map\prebuilds\win32-x64\node.napi.glibc.node'
 
 npm manifest: 
   {

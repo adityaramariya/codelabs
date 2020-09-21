@@ -8,7 +8,10 @@ $secondary_color: #0E364C;
 $body_bg : #fff;
 $white: #fff;
 
+$gray__dark: #232323;
+
 // fonts
+$heading__large: 65px;
 $font_size_base: 16;
 $font_base_line_height: 1.4;
 $font_primary: 'Poppins', sans-serif;
@@ -24,9 +27,14 @@ $gutter__space: 20px;
 
 
 // breakpoints
+$breakpoint__extra__large: 1450px;
 $breakpoint__large: 1200px;
 $breakpoint__medium: 991px;
 $breakpoint__small: 767px;
 
-
 $main__height: calc(100vh);
+
+
+// container width
+
+$container__max__width__extra__large : 1440px;

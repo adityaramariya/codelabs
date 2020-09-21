@@ -1,0 +1,9 @@
+# dependencies
+/node_modules
+
+# cache
+/.cache
+/.parcel-cache
+
+# sass configration
+/.sassrc.js
