@@ -110,6 +110,11 @@ main{
     z-index: 1;
   }
 
+  .carousel-inner
+  {
+    background-color: $gray__dark;
+  }
+
   .carousel__content
   {
     display: flex;
@@ -173,11 +178,11 @@ main{
 
   .carousel-control-prev
   {
-    left: 50%;
+    left: 46%;
   }
 
   .carousel-control-next{
-    right: 50%;
+    right: 47%;
   }
 }
 
@@ -437,4 +442,13 @@ body.scrolled
 .about__us--more
 {
   padding: 0 50px;
+}
+
+
+.about__us--more
+{
+  background-image: url('/images/bg-pattern.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
 }

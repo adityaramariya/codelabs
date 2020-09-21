@@ -10017,6 +10017,9 @@ main {
   background: rgba(0, 0, 0, 0.1);
   z-index: 1;
 }
+.banner .carousel-inner {
+  background-color: #232323;
+}
 .banner .carousel__content {
   display: flex;
   justify-content: center;
@@ -10070,10 +10073,10 @@ main {
   z-index: 10;
 }
 .banner .carousel-control-prev {
-  left: 50%;
+  left: 46%;
 }
 .banner .carousel-control-next {
-  right: 50%;
+  right: 47%;
 }
 
 header nav.navbar {
@@ -10275,6 +10278,13 @@ body.scrolled header .navbar .container .navbar-brand {
 
 .about__us--more {
   padding: 0 50px;
+}
+
+.about__us--more {
+  background-image: url("/bg-pattern.1c3a2592.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
 }
 
 /*# sourceMappingURL=/style.a6dae8f7.css.map */

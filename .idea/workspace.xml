@@ -20,9 +20,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.fb6bbcaf.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.fb6bbcaf.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.fb6bbcaf.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.fb6bbcaf.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.a6dae8f7.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.a6dae8f7.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.a6dae8f7.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.a6dae8f7.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/style.a6dae8f7.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.a6dae8f7.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/style.a6dae8f7.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.a6dae8f7.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +94,7 @@
       <workItem from="1600568297096" duration="7519000" />
       <workItem from="1600663831418" duration="9399000" />
       <workItem from="1600674810126" duration="5262000" />
-      <workItem from="1600694573093" duration="1147000" />
+      <workItem from="1600694573093" duration="1825000" />
     </task>
     <servers />
   </component>
@@ -163,9 +166,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="761" y="426" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600574371017" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600695274116">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600695942470">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600695274116" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600695942470" />
   </component>
 </project>
