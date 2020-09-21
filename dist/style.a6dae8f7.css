@@ -10041,13 +10041,6 @@ main {
     padding-right: 40px;
   }
 }
-.banner .carousel__content__subheading {
-  font-size: 20px;
-  font-weight: 500;
-}
-.banner .carousel__content__subheading--uppercase {
-  text-transform: uppercase;
-}
 .banner .carousel__content__heading {
   font-size: 2em;
   font-weight: 800;
