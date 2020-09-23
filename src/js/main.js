@@ -1,8 +1,6 @@
 import 'jquery/dist/jquery.js';
 import 'bootstrap/dist/js/bootstrap';
 
-
-
 let scrollPosition = window.scrollY;
 const body = document.querySelector('body');
 const header = document.querySelector('header nav');
