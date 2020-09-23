@@ -10193,6 +10193,44 @@ header nav.navbar {
   background-color: #0E364C;
   align-items: stretch;
   padding: 0;
+  /*
+  .navbar-toggler {
+    .icon-bar {
+      transition: 300ms ease-in-out;
+      background-color: #fff;
+      position: relative;
+      width: 24px;
+      height: 3px;
+    }
+    .icon-bar:last-child {
+      -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      top: -7px;
+    }
+    .icon-bar:nth-child(2) {
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg);
+      top: 0px;
+    }
+    .icon-bar:nth-child(3) {
+      opacity: 0;
+    }
+    &.collapsed {
+      .icon-bar {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        top: 0;
+        opacity: 1;
+      }
+    }
+  }
+  */
 }
 @media (max-width: 991px) {
   header nav.navbar {
@@ -10204,13 +10242,21 @@ header nav.navbar {
 header nav.navbar.fixed-bottom {
   position: absolute;
 }
+@media (max-width: 991px) {
+  header nav.navbar.fixed-bottom {
+    position: fixed;
+    top: 0;
+    bottom: unset;
+  }
+}
 header nav.navbar .container {
   transition: ease-in-out 0.2s;
 }
 @media (max-width: 991px) {
   header nav.navbar .container {
-    display: flex;
-    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr auto 200px;
+    grid-gap: 15px;
   }
 }
 @media (max-width: 991px) {
@@ -10219,7 +10265,6 @@ header nav.navbar .container {
     color: #fff;
     border-radius: 0;
     padding: 0;
-    margin-left: 10px;
     outline: none;
   }
   header nav.navbar .navbar-toggler .navbar-toggler-icon {
@@ -10260,10 +10305,17 @@ header nav.navbar button.btn-primary {
 @media (max-width: 991px) {
   header nav.navbar button.btn-primary {
     width: auto;
+    grid-column: 3/4;
+    grid-row: 1;
   }
 }
 header nav.navbar .mainNavigation {
   height: 100%;
+}
+@media (max-width: 991px) {
+  header nav.navbar .mainNavigation {
+    grid-column: 1/4;
+  }
 }
 @media (min-width: 991px) {
   header nav.navbar .navbar-nav {
@@ -10534,6 +10586,10 @@ img {
   #contact .section__inner .section__article.image {
     order: -1;
   }
+}
+
+.text-primary.text-primary {
+  color: #CA2223 !important;
 }
 
 /*# sourceMappingURL=/style.a6dae8f7.css.map */
