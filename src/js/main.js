@@ -9,7 +9,6 @@ function isMobile() {
 if (!isMobile()) {
 //place script you don't want to run on mobile here
 
-    alert('working')
     let scrollPosition = window.scrollY;
     const body = document.querySelector('body');
     const header = document.querySelector('header nav');

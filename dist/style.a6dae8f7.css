@@ -10255,7 +10255,7 @@ header nav.navbar .container {
 @media (max-width: 991px) {
   header nav.navbar .container {
     display: grid;
-    grid-template-columns: 1fr auto 200px;
+    grid-template-columns: 1fr 200px auto;
     grid-gap: 15px;
   }
 }
@@ -10266,6 +10266,7 @@ header nav.navbar .container {
     border-radius: 0;
     padding: 0;
     outline: none;
+    grid-column: 3/3;
   }
   header nav.navbar .navbar-toggler .navbar-toggler-icon {
     height: auto;
@@ -10305,7 +10306,7 @@ header nav.navbar button.btn-primary {
 @media (max-width: 991px) {
   header nav.navbar button.btn-primary {
     width: auto;
-    grid-column: 3/4;
+    grid-column: 2/3;
     grid-row: 1;
   }
 }
