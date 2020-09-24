@@ -18249,30 +18249,38 @@ require("jquery/dist/jquery.js");
 
 require("bootstrap/dist/js/bootstrap");
 
-var scrollPosition = window.scrollY;
-var body = document.querySelector('body');
-var header = document.querySelector('header nav');
-var main = document.querySelector('main');
-var main_height = main.offsetHeight;
-var header_height = header.offsetHeight;
+function isMobile() {
+  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
 
-var add_class_on_scroll = function add_class_on_scroll() {
-  return body.classList.add('scrolled');
-};
+if (!isMobile()) {
+  //place script you don't want to run on mobile here
+  alert('working');
+  var scrollPosition = window.scrollY;
+  var body = document.querySelector('body');
+  var header = document.querySelector('header nav');
+  var main = document.querySelector('main');
+  var main_height = main.offsetHeight;
+  var header_height = header.offsetHeight;
 
-var remove_class_on_scroll = function remove_class_on_scroll() {
-  return body.classList.remove('scrolled');
-};
+  var add_class_on_scroll = function add_class_on_scroll() {
+    return body.classList.add('scrolled');
+  };
 
-window.addEventListener('scroll', function () {
-  scrollPosition = window.scrollY;
+  var remove_class_on_scroll = function remove_class_on_scroll() {
+    return body.classList.remove('scrolled');
+  };
 
-  if (scrollPosition > main_height - header_height) {
-    add_class_on_scroll();
-  } else {
-    remove_class_on_scroll();
-  }
-});
+  window.addEventListener('scroll', function () {
+    scrollPosition = window.scrollY;
+
+    if (scrollPosition > main_height - header_height) {
+      add_class_on_scroll();
+    } else {
+      remove_class_on_scroll();
+    }
+  });
+}
 },{"jquery/dist/jquery.js":"../node_modules/jquery/dist/jquery.js","bootstrap/dist/js/bootstrap":"../node_modules/bootstrap/dist/js/bootstrap.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -18301,7 +18309,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58936" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60913" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
