@@ -6,52 +6,51 @@
     <link rel="stylesheet" href="/style.a6dae8f7.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="/style.a6dae8f7.js"></script></head>
-<!--<body data-spy="scroll" data-target="#mainNavigation" data-offset="0">-->
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg fixed-bottom">
-            <div class="container">
-                <a class="navbar-brand" href="#"><img src="/logo.6023b87e.png" alt=""></a>
+<header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="/logo.6023b87e.png" alt=""></a>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">
                         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                           <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
                         </svg>
                     </span>
-                </button>
+            </button>
 
 
+            <div class="collapse navbar-collapse mainNavigation" id="mainNavigation">
+                <ul class="navbar-nav">
+                    <li data-menuanchor="home" class="nav-item">
+                        <a class="nav-link" href="#home">home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li data-menuanchor="about" class="nav-item">
+                        <a class="nav-link" href="#about">about us</a>
+                    </li>
+                    <li data-menuanchor="work" class="nav-item">
+                        <a class="nav-link" href="#work">our work</a>
+                    </li>
 
-                <div class="collapse navbar-collapse mainNavigation" id="mainNavigation">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#home">home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">about us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#work">our work</a>
-                        </li>
+                    <li data-menuanchor="services" class="nav-item">
+                        <a class="nav-link" href="#services">services</a>
+                    </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#services">services</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">contact us</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <button class="btn btn-primary my-2 my-sm-0 start__project" type="submit">Start Project</button>
-
+                    <li data-menuanchor="contact" class="nav-item">
+                        <a class="nav-link" href="#contact">contact us</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </header>
-    <main>
-        <section id="home">
+
+            <button class="btn btn-primary my-2 my-sm-0 start__project" type="submit">Start Project</button>
+
+        </div>
+    </nav>
+</header>
+<main>
+    <div id="fullpage" class="example">
+        <section id="home" class="section active">
             <article class="banner">
                 <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
@@ -88,69 +87,76 @@
                 </div>
             </article>
         </section>
-        <section id="about" class="section dark__bg">
-            <div class="section__inner">
-                <div class="image section__article">
-                    <img src="/about.32a5dd7a.jpg" alt="">
-                </div>
-                <div class="section__article p__100">
-                    <h2>About us</h2>
-                    <p class="lead">know about our company</p>
-                    <p>Vcodelabs is one of the best consulting and outsourcing firms in India. We provide enterprise software development, web & software development, and mobile
-                        app development services. To offer you the best IT-solutions, we have highly skilled and experienced developers.
-                        Our software dedicated team will help you to establish your online presence.
-                    </p>
+        <section id="about" class="section">
+            <div class="slide" id="slide1">
+                <section class="section dark__bg">
+                    <div class="section__inner">
+                        <div class="image section__article">
+                            <img src="/about.32a5dd7a.jpg" alt="">
+                        </div>
+                        <div class="section__article p__100">
+                            <h2>About us</h2>
+                            <p class="lead">know about our company</p>
+                            <p>Vcodelabs is one of the best consulting and outsourcing firms in India. We provide enterprise software development, web & software development, and mobile
+                                app development services. To offer you the best IT-solutions, we have highly skilled and experienced developers.
+                                Our software dedicated team will help you to establish your online presence.
+                            </p>
 
-                    <p>
-                        We have served end-to-end solutions to many businesses and helped them build their online presence with highly scalable and interactive UI/UX designing.
-                        We at Vcodelabs, adhere to our core values and offer valuable integrated development services. You can be assured about the timely delivery without any compromise of
-                        quality in services.
-                    </p>
-                </div>
+                            <p>
+                                We have served end-to-end solutions to many businesses and helped them build their online presence with highly scalable and interactive UI/UX designing.
+                                We at Vcodelabs, adhere to our core values and offer valuable integrated development services. You can be assured about the timely delivery without any compromise of
+                                quality in services.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="slide" id="slide2">
+                <section class="section light__bg section__with__bg">
+                    <div class="section__inner">
+                        <div class="section__article p__100">
+                            <h2>Excellence in Providing IT-Solutions!</h2>
+                            <p class="lead">Looking for a trusted website development company?</p>
+                            <p>Vcodelabs can work with you to meet your business' web development project requirements.</p>
+                        </div>
+
+                        <div class="section__article p__50">
+                            <p>
+                                We aim to provide authentic deliveries with our industry expertise on multiple platforms.
+                                In this world's improbability, we deliver guaranteed services to our esteemed clients.
+                                We ideate, innovate, and create the best possible thing for your business.
+                                Our experts will always be happy to assist you with any kind of IT solution for your business.
+                                Working with the newest technology is our specialty, and we love to provide engaging services.
+                            </p>
+
+                            <p>
+                                Transform your vivid ideas into a secure & feature packed mobile application with the help of our development team.
+                                We can build mobile apps, software, and websites with infinite possibilities to empower your business.
+                            </p>
+
+                            <p>
+                                We focus on working with you by using agile methodologies with lesser time and budget to hit the best for your business.
+                                We are significantly experienced in developing high performance, security, scalable, and featured-packed applications
+                                with your required framework. Our dedicated team of knowledgeable & highly-skilled developers who've had vast
+                                experience in industrial projects will create scalable business applications.
+                            </p>
+
+                            <p>
+                                If you decide to partner with us, we will offer you — end-to-end development service for your business projects. Before closing your work, we ensure
+                                to match business needs precisely.
+                            </p>
+
+                            <p>
+                                Vcodelabs is one of the trusted names for IT solutions, and we provide IT consultation
+                                as well. You only need to share your idea with us, and we will provide the best possible services to you!
+                            </p>
+                        </div>
+                    </div>
+                </section>
             </div>
         </section>
-        <section class="section light__bg section__with__bg">
-            <div class="section__inner">
-                <div class="section__article p__100">
-                    <h2>Excellence in Providing IT-Solutions!</h2>
-                    <p class="lead">Looking for a trusted website development company?</p>
-                    <p>Vcodelabs can work with you to meet your business' web development project requirements.</p>
-                </div>
 
-                <div class="section__article p__50">
-                    <p>
-                        We aim to provide authentic deliveries with our industry expertise on multiple platforms.
-                        In this world's improbability, we deliver guaranteed services to our esteemed clients.
-                        We ideate, innovate, and create the best possible thing for your business.
-                        Our experts will always be happy to assist you with any kind of IT solution for your business.
-                        Working with the newest technology is our specialty, and we love to provide engaging services.
-                    </p>
-
-                    <p>
-                        Transform your vivid ideas into a secure & feature packed mobile application with the help of our development team.
-                        We can build mobile apps, software, and websites with infinite possibilities to empower your business.
-                    </p>
-
-                    <p>
-                        We focus on working with you by using agile methodologies with lesser time and budget to hit the best for your business.
-                        We are significantly experienced in developing high performance, security, scalable, and featured-packed applications
-                        with your required framework. Our dedicated team of knowledgeable & highly-skilled developers who've had vast
-                        experience in industrial projects will create scalable business applications.
-                    </p>
-
-                    <p>
-                        If you decide to partner with us, we will offer you — end-to-end development service for your business projects. Before closing your work, we ensure
-                        to match business needs precisely.
-                    </p>
-
-                    <p>
-                        Vcodelabs is one of the trusted names for IT solutions, and we provide IT consultation
-                        as well. You only need to share your idea with us, and we will provide the best possible services to you!
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section class="section primary__bg" id="work">
+        <section id="work" class="section primary__bg">
             <div class="section__inner">
                 <div class="section__article p__100">
                     <h2>Our Work</h2>
@@ -181,244 +187,253 @@
                 </div>
             </div>
         </section>
-        <section class="section light__bg">
-            <div class="section__inner column__medium">
-                <div class="section__article p__100 max__800">
-                    <h2 class="text-primary">For all your IT requirements</h2>
-                    <p class="lead">360° IT-Solutions Agency</p>
-                </div>
 
-                <div class="section__article">
-                    <div class="section__article__specialities">
-                        <div class="section__article__specialities__item">
-                            <div class="section__article__specialities__icon">
-                                <span class="icon-app"></span>
-                            </div>
-
-                            <div class="section__article__specialities__title">
-                                WEB & SOFTWARE DEVELOPMENT
-                            </div>
-
-                            <div class="section__article__specialities__detail">
-                                <p>
-                                    We have helped many startups by creating top class B2B & B2C websites and software for diverse industries. Are you looking to outsource your web & software development project? Get in touch with us!
-                                </p>
-                            </div>
+        <section id="services" class="section">
+            <div class="slide">
+                <section class="section light__bg">
+                    <div class="section__inner column__medium">
+                        <div class="section__article p__100 max__800">
+                            <h2 class="text-primary">For all your IT requirements</h2>
+                            <p class="lead">360° IT-Solutions Agency</p>
                         </div>
 
-                        <div class="section__article__specialities__item">
-                            <div class="section__article__specialities__icon">
-                                <span class="icon-app"></span>
-                            </div>
+                        <div class="section__article">
+                            <div class="section__article__specialities">
+                                <div class="section__article__specialities__item">
+                                    <div class="section__article__specialities__icon">
+                                        <span class="icon-app"></span>
+                                    </div>
 
-                            <div class="section__article__specialities__title">
-                                WEB & SOFTWARE DEVELOPMENT
-                            </div>
+                                    <div class="section__article__specialities__title">
+                                        WEB & SOFTWARE DEVELOPMENT
+                                    </div>
 
-                            <div class="section__article__specialities__detail">
-                                <p>
-                                    We have helped many startups by creating top class B2B & B2C websites and software for diverse industries. Are you looking to outsource your web & software development project? Get in touch with us!
-                                </p>
-                            </div>
-                        </div>
+                                    <div class="section__article__specialities__detail">
+                                        <p>
+                                            We have helped many startups by creating top class B2B & B2C websites and software for diverse industries. Are you looking to outsource your web & software development project? Get in touch with us!
+                                        </p>
+                                    </div>
+                                </div>
 
-                        <div class="section__article__specialities__item">
-                            <div class="section__article__specialities__icon">
-                                <span class="icon-app"></span>
-                            </div>
+                                <div class="section__article__specialities__item">
+                                    <div class="section__article__specialities__icon">
+                                        <span class="icon-app"></span>
+                                    </div>
 
-                            <div class="section__article__specialities__title">
-                                WEB & SOFTWARE DEVELOPMENT
-                            </div>
+                                    <div class="section__article__specialities__title">
+                                        WEB & SOFTWARE DEVELOPMENT
+                                    </div>
 
-                            <div class="section__article__specialities__detail">
-                                <p>
-                                    We have helped many startups by creating top class B2B & B2C websites and software for diverse industries. Are you looking to outsource your web & software development project? Get in touch with us!
-                                </p>
-                            </div>
-                        </div>
+                                    <div class="section__article__specialities__detail">
+                                        <p>
+                                            We have helped many startups by creating top class B2B & B2C websites and software for diverse industries. Are you looking to outsource your web & software development project? Get in touch with us!
+                                        </p>
+                                    </div>
+                                </div>
 
-                        <div class="section__article__specialities__item">
-                            <div class="section__article__specialities__icon">
-                                <span class="icon-app"></span>
-                            </div>
+                                <div class="section__article__specialities__item">
+                                    <div class="section__article__specialities__icon">
+                                        <span class="icon-app"></span>
+                                    </div>
 
-                            <div class="section__article__specialities__title">
-                                WEB & SOFTWARE DEVELOPMENT
-                            </div>
+                                    <div class="section__article__specialities__title">
+                                        WEB & SOFTWARE DEVELOPMENT
+                                    </div>
 
-                            <div class="section__article__specialities__detail">
-                                <p>
-                                    We have helped many startups by creating top class B2B & B2C websites and software for diverse industries. Are you looking to outsource your web & software development project? Get in touch with us!
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section light__bg">
-            <div class="section__inner column__medium">
-                <div class="section__article">
-                    <div class="section__article__specialities">
-                        <div class="section__article__specialities__item">
-                            <div class="section__article__specialities__icon">
-                                <span class="icon-app"></span>
-                            </div>
+                                    <div class="section__article__specialities__detail">
+                                        <p>
+                                            We have helped many startups by creating top class B2B & B2C websites and software for diverse industries. Are you looking to outsource your web & software development project? Get in touch with us!
+                                        </p>
+                                    </div>
+                                </div>
 
-                            <div class="section__article__specialities__title">
-                                WEB & SOFTWARE DEVELOPMENT
-                            </div>
+                                <div class="section__article__specialities__item">
+                                    <div class="section__article__specialities__icon">
+                                        <span class="icon-app"></span>
+                                    </div>
 
-                            <div class="section__article__specialities__detail">
-                                <p>
-                                    We have helped many startups by creating top class B2B & B2C websites and software for diverse industries. Are you looking to outsource your web & software development project? Get in touch with us!
-                                </p>
-                            </div>
-                        </div>
+                                    <div class="section__article__specialities__title">
+                                        WEB & SOFTWARE DEVELOPMENT
+                                    </div>
 
-                        <div class="section__article__specialities__item">
-                            <div class="section__article__specialities__icon">
-                                <span class="icon-app"></span>
-                            </div>
-
-                            <div class="section__article__specialities__title">
-                                WEB & SOFTWARE DEVELOPMENT
-                            </div>
-
-                            <div class="section__article__specialities__detail">
-                                <p>
-                                    We have helped many startups by creating top class B2B & B2C websites and software for diverse industries. Are you looking to outsource your web & software development project? Get in touch with us!
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="section__article__specialities__item">
-                            <div class="section__article__specialities__icon">
-                                <span class="icon-app"></span>
-                            </div>
-
-                            <div class="section__article__specialities__title">
-                                WEB & SOFTWARE DEVELOPMENT
-                            </div>
-
-                            <div class="section__article__specialities__detail">
-                                <p>
-                                    We have helped many startups by creating top class B2B & B2C websites and software for diverse industries. Are you looking to outsource your web & software development project? Get in touch with us!
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="section__article__specialities__item">
-                            <div class="section__article__specialities__icon">
-                                <span class="icon-app"></span>
-                            </div>
-
-                            <div class="section__article__specialities__title">
-                                WEB & SOFTWARE DEVELOPMENT
-                            </div>
-
-                            <div class="section__article__specialities__detail">
-                                <p>
-                                    We have helped many startups by creating top class B2B & B2C websites and software for diverse industries. Are you looking to outsource your web & software development project? Get in touch with us!
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="image section__article max__500">
-                    <img src="/no__search.ff70f5ef.png" alt="">
-                    <div class="overlay__content p__50">
-                        <div class="oc__title">
-                            No more search !!!
-                        </div>
-
-                        <div class="oc__content">
-                            Stop everything and snag your required services from Vcodelabs without wasting your time!
-                        </div>
-                        <button class="btn btn-outline-light">
-                            get quote
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="contact" class="section">
-                <div class="section__inner">
-                    <div class="image section__article">
-                        <img src="/no__search.ff70f5ef.png" alt="">
-
-                        <div class="overlay__content p__50">
-                            <div class="oc__title">
-                                Contact information
-                            </div>
-
-                            <div class="oc__content">
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                <address>
-                                    <span>The Company Name Inc.</span>
-                                    <span>9870 St Vincent Place,</span>
-                                    <span>Glasgow, DC 45 Fr 45.</span>
-                                </address>
-                                <div class="contact__details">
-                                    <span>Telephone:+1 800 603 6035</span>
-                                    <span>FAX:+1 800 889 9898 </span>
-                                    <span>E-mail: mail@Vcodelabs.org</span>
+                                    <div class="section__article__specialities__detail">
+                                        <p>
+                                            We have helped many startups by creating top class B2B & B2C websites and software for diverse industries. Are you looking to outsource your web & software development project? Get in touch with us!
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </section>
+            </div>
+            <div class="slide">
+                <section class="section light__bg">
+                    <div class="section__inner column__medium">
+                        <div class="section__article">
+                            <div class="section__article__specialities">
+                                <div class="section__article__specialities__item">
+                                    <div class="section__article__specialities__icon">
+                                        <span class="icon-app"></span>
+                                    </div>
 
-                    <div class="section__article p__50">
-                        <form>
-                            <div class="form__title">
-                                Mail us
-                            </div>
-                            <div class="form-group">
-                                <label for="name" class="sr-only">Your Name</label>
-                                <input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="your name">
-                            </div>
+                                    <div class="section__article__specialities__title">
+                                        WEB & SOFTWARE DEVELOPMENT
+                                    </div>
 
-                            <div class="form-group">
-                                <label for="email" class="sr-only">Your Name</label>
-                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="your email address">
-                            </div>
+                                    <div class="section__article__specialities__detail">
+                                        <p>
+                                            We have helped many startups by creating top class B2B & B2C websites and software for diverse industries. Are you looking to outsource your web & software development project? Get in touch with us!
+                                        </p>
+                                    </div>
+                                </div>
 
-                            <div class="form-group">
-                                <label for="email" class="sr-only">subject</label>
-                                <input type="text" class="form-control" id="subject" aria-describedby="emailHelp" placeholder="subject">
-                            </div>
+                                <div class="section__article__specialities__item">
+                                    <div class="section__article__specialities__icon">
+                                        <span class="icon-app"></span>
+                                    </div>
 
-                            <div class="form-group">
-                                <label for="message" class="sr-only">Message</label>
-                                <textarea class="form-control" id="message" rows="3" placeholder="Message"></textarea>
-                            </div>
+                                    <div class="section__article__specialities__title">
+                                        WEB & SOFTWARE DEVELOPMENT
+                                    </div>
 
-                            <button type="submit" class="btn btn-secondary">send message</button>
-                        </form>
+                                    <div class="section__article__specialities__detail">
+                                        <p>
+                                            We have helped many startups by creating top class B2B & B2C websites and software for diverse industries. Are you looking to outsource your web & software development project? Get in touch with us!
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="section__article__specialities__item">
+                                    <div class="section__article__specialities__icon">
+                                        <span class="icon-app"></span>
+                                    </div>
+
+                                    <div class="section__article__specialities__title">
+                                        WEB & SOFTWARE DEVELOPMENT
+                                    </div>
+
+                                    <div class="section__article__specialities__detail">
+                                        <p>
+                                            We have helped many startups by creating top class B2B & B2C websites and software for diverse industries. Are you looking to outsource your web & software development project? Get in touch with us!
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="section__article__specialities__item">
+                                    <div class="section__article__specialities__icon">
+                                        <span class="icon-app"></span>
+                                    </div>
+
+                                    <div class="section__article__specialities__title">
+                                        WEB & SOFTWARE DEVELOPMENT
+                                    </div>
+
+                                    <div class="section__article__specialities__detail">
+                                        <p>
+                                            We have helped many startups by creating top class B2B & B2C websites and software for diverse industries. Are you looking to outsource your web & software development project? Get in touch with us!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image section__article max__500">
+                            <img src="/no__search.ff70f5ef.png" alt="">
+                            <div class="overlay__content p__50">
+                                <div class="oc__title">
+                                    No more search !!!
+                                </div>
+
+                                <div class="oc__content">
+                                    Stop everything and snag your required services from Vcodelabs without wasting your time!
+                                </div>
+                                <button class="btn btn-outline-light">
+                                    get quote
+                                </button>
+                            </div>
+                        </div>
                     </div>
+                </section>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <div class="section__inner">
+                <div class="image section__article">
+                    <img src="/no__search.ff70f5ef.png" alt="">
 
+                    <div class="overlay__content p__50">
+                        <div class="oc__title">
+                            Contact information
+                        </div>
+
+                        <div class="oc__content">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            <address>
+                                <span>The Company Name Inc.</span>
+                                <span>9870 St Vincent Place,</span>
+                                <span>Glasgow, DC 45 Fr 45.</span>
+                            </address>
+                            <div class="contact__details">
+                                <span>Telephone:+1 800 603 6035</span>
+                                <span>FAX:+1 800 889 9898 </span>
+                                <span>E-mail: mail@Vcodelabs.org</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </section>
-    </main>
-    <div class="topbar">
-        <a class="navbar-brand" href="#"><img src="/logo.6023b87e.png" alt=""></a>
-        <ul class="topbar__links">
-            <li class="topbar__links__item">
-                <span>our address</span>
-                <span>13 ruckman, ny, 73008</span>
-            </li>
-            <li class="topbar__links__item">
-                <span>24/7 toll free</span>
-                <span>1(800) 2345678</span>
-            </li>
-            <li class="topbar__links__item">
-                <span>email address</span>
-                <span>info@vcodelabs.com</span>
-            </li>
-        </ul>
-        <button class="btn btn-primary my-2 my-sm-0 start__project" type="submit">Start Project</button>
+
+                <div class="section__article p__50">
+                    <form>
+                        <div class="form__title">
+                            Mail us
+                        </div>
+                        <div class="form-group">
+                            <label for="name" class="sr-only">Your Name</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="your name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="sr-only">Your Name</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="your email address">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="sr-only">subject</label>
+                            <input type="text" class="form-control" id="subject" aria-describedby="emailHelp" placeholder="subject">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message" class="sr-only">Message</label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Message"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-secondary">send message</button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
     </div>
-<script src="/main.fb6bbcaf.js"></script>
+
+</main>
+<div class="topbar">
+    <a class="navbar-brand" href="#"><img src="/logo.6023b87e.png" alt=""></a>
+    <ul class="topbar__links">
+        <li class="topbar__links__item">
+            <span>our address</span>
+            <span>13 ruckman, ny, 73008</span>
+        </li>
+        <li class="topbar__links__item">
+            <span>24/7 toll free</span>
+            <span>1(800) 2345678</span>
+        </li>
+        <li class="topbar__links__item">
+            <span>email address</span>
+            <span>info@vcodelabs.com</span>
+        </li>
+    </ul>
+    <button class="btn btn-primary my-2 my-sm-0 start__project" type="submit">Start Project</button>
+</div>
+<script src="/src.e31bb0bc.js"></script>
 </body>
 </html>
