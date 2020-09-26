@@ -18,47 +18,15 @@
   <component name="ChangeListManager">
     <list default="true" id="854762f2-8ed6-441d-9f76-4ecb1fbf94d0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/about.32a5dd7a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/banner-1.f688bbb5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/banner-2.7fdc4756.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/banner-3.820901da.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/icomoon.1ca4cec9.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/icomoon.6b8bcbf5.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/icomoon.9f9cefce.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/icomoon.e8525941.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logo.6023b87e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.fb6bbcaf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.fb6bbcaf.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/no__search.ff70f5ef.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/style.a6dae8f7.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/style.a6dae8f7.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/style.a6dae8f7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/style.a6dae8f7.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/work.6d0ebee3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/about.0271912a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/banner-1.21a4ed80.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/banner-2.8b42bf2d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/banner-3.4be0fc53.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/icomoon.391baf3b.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/icomoon.67c41c83.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/icomoon.e3e12423.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/icomoon.f5df4a06.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/logo.22d9db8a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.7156e30c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.7156e30c.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/no__search.815f6a16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/style.99229b01.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/style.99229b01.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/work.cdb77d9e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src.e31bb0bc.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src.e31bb0bc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.a6dae8f7.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.a6dae8f7.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.a6dae8f7.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.a6dae8f7.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.a6dae8f7.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.a6dae8f7.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/icons/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/icons/_icons.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/vendor/_fullpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendor/_fullpage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/variable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/variable.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +105,8 @@
       <workItem from="1600927590369" duration="15979000" />
       <workItem from="1600960893119" duration="102000" />
       <workItem from="1600963845279" duration="17242000" />
-      <workItem from="1601032402058" duration="4613000" />
+      <workItem from="1601032402058" duration="6489000" />
+      <workItem from="1601097224308" duration="4143000" />
     </task>
     <servers />
   </component>
@@ -217,9 +186,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600867496578" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601015773560">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601099898404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601015773560" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601099898404" />
   </component>
 </project>

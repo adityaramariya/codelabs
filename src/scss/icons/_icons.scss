@@ -27,45 +27,33 @@
 
 .icon-app:before {
   content: "\e900";
-  color: #ca2223;
+  color: $primary_color;
 }
 .icon-cloud__computing:before {
   content: "\e901";
-  color: #ca2223;
+  color: $primary_color;
 }
 .icon-consulting:before {
   content: "\e902";
-  color: #ca2223;
+  color: $primary_color;
 }
 .icon-enterprise__app:before {
   content: "\e903";
-  color: #ca2223;
+  color: $primary_color;
 }
 .icon-quality__assurance:before {
   content: "\e904";
-  color: #ca2223;
+  color: $primary_color;
 }
 .icon-support:before {
   content: "\e905";
-  color: #ca2223;
+  color: $primary_color;
 }
 .icon-sw:before {
   content: "\e906";
-  color: #ca2223;
+  color: $primary_color;
 }
 .icon-ui__ux:before {
   content: "\e907";
-  color: #ca2223;
-}
-.icon-facebook:before {
-  content: "\ea90";
-}
-.icon-instagram:before {
-  content: "\ea92";
-}
-.icon-twitter:before {
-  content: "\ea96";
-}
-.icon-youtube2:before {
-  content: "\ea9e";
+  color: $primary_color;
 }
