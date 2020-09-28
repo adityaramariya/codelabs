@@ -11,7 +11,6 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="/logo.6023b87e.png" alt=""></a>
-
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">
                         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -19,11 +18,9 @@
                         </svg>
                     </span>
             </button>
-
-
             <div class="collapse navbar-collapse mainNavigation" id="mainNavigation">
-                <ul class="navbar-nav">
-                    <li data-menuanchor="home" class="nav-item">
+                <ul class="navbar-nav" id="menu">
+                    <li data-menuanchor="home" class="nav-item active">
                         <a class="nav-link" href="#home">home <span class="sr-only">(current)</span></a>
                     </li>
                     <li data-menuanchor="about" class="nav-item">
@@ -32,25 +29,21 @@
                     <li data-menuanchor="work" class="nav-item">
                         <a class="nav-link" href="#work">our work</a>
                     </li>
-
                     <li data-menuanchor="services" class="nav-item">
                         <a class="nav-link" href="#services">services</a>
                     </li>
-
                     <li data-menuanchor="contact" class="nav-item">
                         <a class="nav-link" href="#contact">contact us</a>
                     </li>
                 </ul>
             </div>
-
             <button class="btn btn-primary my-2 my-sm-0 start__project" type="submit">Start Project</button>
-
         </div>
     </nav>
 </header>
 <main>
     <div id="fullpage" class="example">
-        <section id="home" class="section active">
+        <section class="section active">
             <article class="banner">
                 <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
@@ -87,76 +80,7 @@
                 </div>
             </article>
         </section>
-       <!-- <section id="about" class="section" >
-            <div class="slide" id="slide1">
-                <section class="section dark__bg">
-                    <div class="section__inner flex-sm-row-reverse">
-                        <div class="image section__article">
-                            <img src="./images/about.jpg" alt="">
-                        </div>
-                        <div class="section__article p__100">
-                            <h2>About us</h2>
-                            <p class="lead">know about our company</p>
-                            <p>Vcodelabs is one of the best consulting and outsourcing firms in India. We provide enterprise software development, web & software development, and mobile
-                                app development services. To offer you the best IT-solutions, we have highly skilled and experienced developers.
-                                Our software dedicated team will help you to establish your online presence.
-                            </p>
-
-                            <p>
-                                We have served end-to-end solutions to many businesses and helped them build their online presence with highly scalable and interactive UI/UX designing.
-                                We at Vcodelabs, adhere to our core values and offer valuable integrated development services. You can be assured about the timely delivery without any compromise of
-                                quality in services.
-                            </p>
-                        </div>
-                    </div>
-                </section>
-            </div>
-            <div class="slide" id="slide2">
-                <section class="section light__bg section__with__bg">
-                    <div class="section__inner">
-                        <div class="section__article p__100">
-                            <h2>Excellence in Providing IT-Solutions!</h2>
-                            <p class="lead">Looking for a trusted website development company?</p>
-                            <p>Vcodelabs can work with you to meet your business' web development project requirements.</p>
-                        </div>
-
-                        <div class="section__article p__50">
-                            <p>
-                                We aim to provide authentic deliveries with our industry expertise on multiple platforms.
-                                In this world's improbability, we deliver guaranteed services to our esteemed clients.
-                                We ideate, innovate, and create the best possible thing for your business.
-                                Our experts will always be happy to assist you with any kind of IT solution for your business.
-                                Working with the newest technology is our specialty, and we love to provide engaging services.
-                            </p>
-
-                            <p>
-                                Transform your vivid ideas into a secure & feature packed mobile application with the help of our development team.
-                                We can build mobile apps, software, and websites with infinite possibilities to empower your business.
-                            </p>
-
-                            <p>
-                                We focus on working with you by using agile methodologies with lesser time and budget to hit the best for your business.
-                                We are significantly experienced in developing high performance, security, scalable, and featured-packed applications
-                                with your required framework. Our dedicated team of knowledgeable & highly-skilled developers who've had vast
-                                experience in industrial projects will create scalable business applications.
-                            </p>
-
-                            <p>
-                                If you decide to partner with us, we will offer you — end-to-end development service for your business projects. Before closing your work, we ensure
-                                to match business needs precisely.
-                            </p>
-
-                            <p>
-                                Vcodelabs is one of the trusted names for IT solutions, and we provide IT consultation
-                                as well. You only need to share your idea with us, and we will provide the best possible services to you!
-                            </p>
-                        </div>
-                    </div>
-                </section>
-            </div>
-        </section>-->
-
-        <section id="about" class="section dark__bg">
+        <section class="section dark__bg">
             <div class="section__inner flex-sm-row-reverse">
                 <div class="image section__article">
                     <img src="/about.32a5dd7a.jpg" alt="">
@@ -218,8 +142,7 @@
                 </div>
             </div>
         </section>
-
-        <section id="work" class="section primary__bg">
+        <section class="section primary__bg">
             <div class="section__inner">
                 <div class="section__article p__100">
                     <h2>Our Work</h2>
@@ -250,9 +173,7 @@
                 </div>
             </div>
         </section>
-
-
-        <section id="services" class="section light__bg">
+        <section class="section light__bg">
             <div class="section__inner column__medium">
                 <div class="section__article p__100 max__800">
                     <h2 class="text-primary">For all your IT requirements</h2>
@@ -328,7 +249,6 @@
                 </div>
             </div>
         </section>
-
         <section class="section light__bg">
             <div class="section__inner column__medium">
                 <div class="section__article">
@@ -415,176 +335,7 @@
                 </div>
             </div>
         </section>
-
-        <!--<section id="services" class="section" >
-            <div class="slide">
-                <section class="section light__bg">
-                    <div class="section__inner column__medium">
-                        <div class="section__article p__100 max__800">
-                            <h2 class="text-primary">For all your IT requirements</h2>
-                            <p class="lead">360° IT-Solutions Agency</p>
-                        </div>
-
-                        <div class="section__article">
-                            <div class="section__article__specialities">
-                                <div class="section__article__specialities__item">
-                                    <div class="section__article__specialities__icon">
-                                        <span class="icon-sw"></span>
-                                    </div>
-
-                                    <div class="section__article__specialities__title">
-                                        WEB & SOFTWARE DEVELOPMENT
-                                    </div>
-
-                                    <div class="section__article__specialities__detail">
-                                        <p>
-                                            We have helped many startups by creating top class B2B & B2C websites and software for diverse industries. Are you looking to outsource your web & software development project? Get in touch with us!
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <div class="section__article__specialities__item">
-                                    <div class="section__article__specialities__icon">
-                                        <span class="icon-quality__assurance"></span>
-                                    </div>
-
-                                    <div class="section__article__specialities__title">
-                                        QUALITY ASSURANCE
-                                    </div>
-
-                                    <div class="section__article__specialities__detail">
-                                        <p>
-                                            Over years of experience and expertise, we can provide you quality assurance. To leverage the best IT solutions from us, call us today! We are delighted to assist you in your web world.
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <div class="section__article__specialities__item">
-                                    <div class="section__article__specialities__icon">
-                                        <span class="icon-enterprise__app"></span>
-                                    </div>
-
-                                    <div class="section__article__specialities__title">
-                                        ENTERPRISE SOFTWARE DEVELOPMENT
-                                    </div>
-
-                                    <div class="section__article__specialities__detail">
-                                        <p>
-                                            Our team has served many enterprises and helped them by developing world-class software. Want to customize your enterprise software? Get enhanced security and advanced features in your software with our assistance.
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <div class="section__article__specialities__item">
-                                    <div class="section__article__specialities__icon">
-                                        <span class="icon-app"></span>
-                                    </div>
-
-                                    <div class="section__article__specialities__title">
-                                        MOBILE APP DEVELOPMENT
-                                    </div>
-
-                                    <div class="section__article__specialities__detail">
-                                        <p>
-                                            Want to choose us? We provide trustable mobile application development services with our significant experience in the industry. We build mobile apps as per your requirements; you can ask us to cover everything you dreamed for your mobile app.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-            <div class="slide">
-                <section class="section light__bg">
-                    <div class="section__inner column__medium">
-                        <div class="section__article">
-                            <div class="section__article__specialities">
-                                <div class="section__article__specialities__item">
-                                    <div class="section__article__specialities__icon">
-                                        <span class="icon-cloud__computing"></span>
-                                    </div>
-
-                                    <div class="section__article__specialities__title">
-                                        CLOUD COMPUTING
-                                    </div>
-
-                                    <div class="section__article__specialities__detail">
-                                        <p>
-                                            Over years of experience and expertise, we can provide you quality assurance. To leverage the best IT solutions from us, call us today! We are delighted to assist you in your web world.
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <div class="section__article__specialities__item">
-                                    <div class="section__article__specialities__icon">
-                                        <span class="icon-support"></span>
-                                    </div>
-
-                                    <div class="section__article__specialities__title">
-                                        24*7 SUPPORT
-                                    </div>
-
-                                    <div class="section__article__specialities__detail">
-                                        <p>
-                                            Over years of experience and expertise, we can provide you quality assurance. To leverage the best IT solutions from us, call us today! We are delighted to assist you in your web world.
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <div class="section__article__specialities__item">
-                                    <div class="section__article__specialities__icon">
-                                        <span class="icon-ui__ux"></span>
-                                    </div>
-
-                                    <div class="section__article__specialities__title">
-                                        UI/UX DESIGNING
-                                    </div>
-
-                                    <div class="section__article__specialities__detail">
-                                        <p>
-                                            Want to choose us? We provide trustable mobile application development services with our significant experience in the industry. We build mobile apps as per your requirements; you can ask us to cover everything you dreamed for your mobile app.
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <div class="section__article__specialities__item">
-                                    <div class="section__article__specialities__icon">
-                                        <span class="icon-consulting"></span>
-                                    </div>
-
-                                    <div class="section__article__specialities__title">
-                                        CONSULTING
-                                    </div>
-
-                                    <div class="section__article__specialities__detail">
-                                        <p>
-                                            Want to choose us? We provide trustable mobile application development services with our significant experience in the industry. We build mobile apps as per your requirements; you can ask us to cover everything you dreamed for your mobile app.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="image section__article max__500">
-                            <img src="./images/no__search.png" alt="">
-                            <div class="overlay__content p__50">
-                                <div class="oc__title">
-                                    No more search !!!
-                                </div>
-
-                                <div class="oc__content">
-                                    Stop everything and snag your required services from Vcodelabs without wasting your time!
-                                </div>
-                                <button class="btn btn-outline-light">
-                                    get quote
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-        </section>-->
-        <section id="contact" class="section">
+        <section class="section">
             <div class="section__inner">
                 <div class="image section__article">
                     <img src="/no__search.ff70f5ef.png" alt="">
@@ -662,6 +413,7 @@
     </ul>
     <button class="btn btn-primary my-2 my-sm-0 start__project" type="submit">Start Project</button>
 </div>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 <script src="/src.e31bb0bc.js"></script>
 </body>
 </html>

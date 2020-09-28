@@ -27,6 +27,10 @@ body {
   font-size: $font_size_base;
   line-height: $font_base_line_height;
   overflow-x: hidden;
+
+  @media(max-width: $breakpoint__medium){
+    padding-top: 89px !important;
+  }
 }
 
 %setUlCss {
@@ -55,6 +59,8 @@ body {
     padding: $gutter__space;
     position: relative;
     background-color: $secondary_color;
+
+    top: unset !important;
   }
   $this: &;
 
@@ -471,12 +477,12 @@ section {
     }
   }
 }
-.fp-viewing-1,
-.fp-viewing-2,
-.fp-viewing-3,
-.fp-viewing-4,
-.fp-viewing-5,
-.fp-viewing-6
+.fp-viewing-about,
+.fp-viewing-about_details,
+.fp-viewing-work,
+.fp-viewing-services,
+.fp-viewing-services_details,
+.fp-viewing-contact
 {
   header {
     .navbar {

@@ -10274,6 +10274,11 @@ body {
   line-height: 1.4;
   overflow-x: hidden;
 }
+@media (max-width: 991px) {
+  body {
+    padding-top: 89px !important;
+  }
+}
 
 header nav.navbar .navbar-nav, .topbar__links {
   padding-left: 0;
@@ -10304,6 +10309,7 @@ header nav.navbar .navbar-nav, .topbar__links {
     padding: 20px;
     position: relative;
     background-color: #0E364C;
+    top: unset !important;
   }
 }
 .topbar__links {
@@ -10690,44 +10696,44 @@ section.primary__bg {
   margin-bottom: 1em;
 }
 
-.fp-viewing-1 header .navbar,
-.fp-viewing-2 header .navbar,
-.fp-viewing-3 header .navbar,
-.fp-viewing-4 header .navbar,
-.fp-viewing-5 header .navbar,
-.fp-viewing-6 header .navbar {
+.fp-viewing-about header .navbar,
+.fp-viewing-about_details header .navbar,
+.fp-viewing-work header .navbar,
+.fp-viewing-services header .navbar,
+.fp-viewing-services_details header .navbar,
+.fp-viewing-contact header .navbar {
   top: 1px;
 }
 @media (max-width: 991px) {
-  .fp-viewing-1 header .navbar,
-.fp-viewing-2 header .navbar,
-.fp-viewing-3 header .navbar,
-.fp-viewing-4 header .navbar,
-.fp-viewing-5 header .navbar,
-.fp-viewing-6 header .navbar {
+  .fp-viewing-about header .navbar,
+.fp-viewing-about_details header .navbar,
+.fp-viewing-work header .navbar,
+.fp-viewing-services header .navbar,
+.fp-viewing-services_details header .navbar,
+.fp-viewing-contact header .navbar {
     top: 0;
   }
 }
-.fp-viewing-1 header .navbar .container .navbar-brand,
-.fp-viewing-1 header .navbar .container button.btn-primary,
-.fp-viewing-2 header .navbar .container .navbar-brand,
-.fp-viewing-2 header .navbar .container button.btn-primary,
-.fp-viewing-3 header .navbar .container .navbar-brand,
-.fp-viewing-3 header .navbar .container button.btn-primary,
-.fp-viewing-4 header .navbar .container .navbar-brand,
-.fp-viewing-4 header .navbar .container button.btn-primary,
-.fp-viewing-5 header .navbar .container .navbar-brand,
-.fp-viewing-5 header .navbar .container button.btn-primary,
-.fp-viewing-6 header .navbar .container .navbar-brand,
-.fp-viewing-6 header .navbar .container button.btn-primary {
+.fp-viewing-about header .navbar .container .navbar-brand,
+.fp-viewing-about header .navbar .container button.btn-primary,
+.fp-viewing-about_details header .navbar .container .navbar-brand,
+.fp-viewing-about_details header .navbar .container button.btn-primary,
+.fp-viewing-work header .navbar .container .navbar-brand,
+.fp-viewing-work header .navbar .container button.btn-primary,
+.fp-viewing-services header .navbar .container .navbar-brand,
+.fp-viewing-services header .navbar .container button.btn-primary,
+.fp-viewing-services_details header .navbar .container .navbar-brand,
+.fp-viewing-services_details header .navbar .container button.btn-primary,
+.fp-viewing-contact header .navbar .container .navbar-brand,
+.fp-viewing-contact header .navbar .container button.btn-primary {
   bottom: 1px;
 }
-.fp-viewing-1 .topbar,
-.fp-viewing-2 .topbar,
-.fp-viewing-3 .topbar,
-.fp-viewing-4 .topbar,
-.fp-viewing-5 .topbar,
-.fp-viewing-6 .topbar {
+.fp-viewing-about .topbar,
+.fp-viewing-about_details .topbar,
+.fp-viewing-work .topbar,
+.fp-viewing-services .topbar,
+.fp-viewing-services_details .topbar,
+.fp-viewing-contact .topbar {
   top: -200px;
 }
 
