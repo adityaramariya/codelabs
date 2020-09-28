@@ -4,7 +4,6 @@ import fullpage from './vendor/fullpage'
 
 var myFullpage = new fullpage('#fullpage', {
     menu: '#mainNavigation',
-    autoScrolling:true,
     scrollHorizontally: true,
     responsiveWidth: 991,
 });
