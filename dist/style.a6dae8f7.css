@@ -10344,6 +10344,11 @@ header nav.navbar .navbar-nav, .topbar__links {
 }
 .topbar__links__item span:nth-child(1) {
   font-weight: 200;
+  font-size: 0.9em;
+}
+.topbar__links__item span a {
+  color: inherit;
+  text-transform: lowercase;
 }
 @media (max-width: 991px) {
   .topbar .navbar-brand,

@@ -96,6 +96,13 @@ body {
 
       &:nth-child(1) {
         font-weight: $font_extra_light;
+        font-size: 0.9em;
+      }
+
+      a
+      {
+        color: inherit;
+        text-transform: lowercase;
       }
     }
   }

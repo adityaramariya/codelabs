@@ -20,11 +20,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/src.e31bb0bc.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src.e31bb0bc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src.e31bb0bc.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src.e31bb0bc.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.a6dae8f7.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.a6dae8f7.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.a6dae8f7.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.a6dae8f7.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/style.a6dae8f7.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.a6dae8f7.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/style.a6dae8f7.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.a6dae8f7.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +109,7 @@
       <workItem from="1601109446823" duration="3137000" />
       <workItem from="1601278818245" duration="5448000" />
       <workItem from="1601301463075" duration="3977000" />
-      <workItem from="1601360850314" duration="839000" />
+      <workItem from="1601360850314" duration="1561000" />
     </task>
     <servers />
   </component>
