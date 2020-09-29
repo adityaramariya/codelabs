@@ -10492,7 +10492,7 @@ header nav.navbar {
   }
 }
 header nav.navbar .navbar-brand img {
-  max-width: 100px;
+  max-width: 120px;
 }
 header nav.navbar .navbar-brand,
 header nav.navbar button.btn-primary {
