@@ -10292,11 +10292,11 @@ header nav.navbar .navbar-nav, .topbar__links {
   justify-content: center;
   padding: 20px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
-  -webkit-transition: ease-in-out 0.5s;
-  -moz-transition: ease-in-out 0.5s;
-  -ms-transition: ease-in-out 0.5s;
-  -o-transition: ease-in-out 0.5s;
-  transition: ease-in-out 0.5s;
+  -webkit-transition: ease 0.3s;
+  -moz-transition: ease 0.3s;
+  -ms-transition: ease 0.3s;
+  -o-transition: ease 0.3s;
+  transition: ease 0.3s;
   position: absolute;
   top: 0;
   right: 0;
@@ -10439,31 +10439,31 @@ header .navbar-collapse {
   justify-content: center;
 }
 header nav.navbar {
-  transition-delay: 1s;
-  -webkit-transition: ease-in-out 0.5s;
-  -moz-transition: ease-in-out 0.5s;
-  -ms-transition: ease-in-out 0.5s;
-  -o-transition: ease-in-out 0.5s;
-  transition: ease-in-out 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
   min-height: 70px;
   background-color: #0E364C;
   align-items: stretch;
   padding: 0;
-  position: fixed;
   width: 100%;
   z-index: 100;
+  position: absolute;
   top: calc(100vh - 70px);
   overflow: hidden;
 }
 @media (max-width: 991px) {
   header nav.navbar {
-    top: 0;
+    top: 0px;
   }
 }
 @media (max-width: 991px) {
   header nav.navbar {
+    position: fixed;
     bottom: auto;
-    top: 0;
+    top: 0px;
     padding: 20px;
   }
 }
@@ -10701,13 +10701,44 @@ section.primary__bg {
   margin-bottom: 1em;
 }
 
+.fp-viewing-home-0 #scrollToTop {
+  opacity: 0;
+  visibility: hidden;
+}
+
+#scrollToTop {
+  transition: ease-in-out 0.5s;
+  transition-delay: 0.6s;
+  position: fixed;
+  right: 10px;
+  bottom: -150px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  z-index: 200;
+}
+
+.fp-viewing-about #scrollToTop,
+.fp-viewing-about_details #scrollToTop,
+.fp-viewing-work #scrollToTop,
+.fp-viewing-services #scrollToTop,
+.fp-viewing-services_details #scrollToTop,
+.fp-viewing-contact #scrollToTop {
+  opacity: 1;
+  visibility: visible;
+  bottom: 10px;
+}
 .fp-viewing-about header .navbar,
 .fp-viewing-about_details header .navbar,
 .fp-viewing-work header .navbar,
 .fp-viewing-services header .navbar,
 .fp-viewing-services_details header .navbar,
 .fp-viewing-contact header .navbar {
-  top: 1px;
+  top: 0px;
 }
 @media (max-width: 991px) {
   .fp-viewing-about header .navbar,
@@ -10798,13 +10829,15 @@ img {
 .overlay__content .oc__title {
   text-transform: capitalize;
   font-size: 1.8em;
-  font-weight: 800;
   margin-bottom: 10px;
 }
 @media (min-width: 1450px) {
   .overlay__content .oc__title {
     font-size: 2.4em;
   }
+}
+.overlay__content .oc__title--bold {
+  font-weight: 800;
 }
 .overlay__content address {
   margin: 20px 0;

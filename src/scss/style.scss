@@ -46,7 +46,7 @@ body {
   padding: $gutter__space;
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 
-  @include transition(ease-in-out);
+  @include transition(ease,0.3s);
 
   position: absolute;
   top: 0;
@@ -210,24 +210,25 @@ header {
   }
 
   nav.navbar {
-    transition-delay: 1s;
-    @include transition(ease-in-out);
+    //transition-delay: 1s;
+    @include transition(all);
     min-height: $header__height;
     background-color: $secondary_color;
     align-items: stretch;
     padding: 0;
-    position: fixed;
     width: 100%;
     z-index: 100;
+    position: absolute;
     top: calc(100vh - 70px);
     overflow: hidden;
     @media(max-width: $breakpoint__medium) {
-      top: 0;
+      top: 0px;
     }
 
     @media(max-width: $breakpoint__medium) {
+      position: fixed;
       bottom: auto;
-      top: 0;
+      top: 0px;
       padding: $gutter__space;
     }
     .container {
@@ -484,6 +485,36 @@ section {
     }
   }
 }
+
+
+.fp-viewing-home-0
+{
+  #scrollToTop {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+
+#scrollToTop
+{
+  transition: ease-in-out 0.5s;
+  transition-delay: 0.6s;
+  position: fixed;
+  right: 10px;
+  bottom: -150px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  z-index: 200;
+}
+
+
+
 .fp-viewing-about,
 .fp-viewing-about_details,
 .fp-viewing-work,
@@ -491,9 +522,16 @@ section {
 .fp-viewing-services_details,
 .fp-viewing-contact
 {
+  #scrollToTop
+  {
+    opacity: 1;
+    visibility: visible;
+    bottom: 10px;
+  }
+
   header {
     .navbar {
-      top: 1px;
+      top: 0px;
       @media(max-width: $breakpoint__medium) {
         top: 0;
       }
@@ -510,6 +548,8 @@ section {
   {
     top: -200px;
   }
+
+
 }
 
 
@@ -573,10 +613,13 @@ img {
     {
       text-transform: capitalize;
       font-size: 1.8em;
-      font-weight: $font_extra_bold;
       margin-bottom: $gutter__space/2;
       @media(min-width: $breakpoint__extra__large) {
         font-size: 2.4em;
+      }
+      &--bold
+      {
+        font-weight: $font_extra_bold;
       }
     }
   }

@@ -30507,7 +30507,37 @@ var myFullpage = new _fullpage.default('#fullpage', {
   menu: '#menu',
   scrollHorizontally: true,
   responsiveWidth: 991,
-  css3: true
+  css3: true,
+  scrollingSpeed: 500,
+  onLeave: function onLeave(origin) {
+    var body = document.body; //after leaving section 2
+
+    console.log(origin.index);
+
+    if (origin.index > 1) {
+      body.classList.add("fixed__header");
+    } else if (origin.index === 1) {
+      body.classList.remove("fixed__header");
+    }
+  }
+});
+$(document).on('click', '#scrollToTop', function () {
+  fullpage_api.moveTo('home', 1);
+});
+$(document).on('click', '.scrollToContact', function () {
+  fullpage_api.moveTo('contact', 1);
+}); // function to close navbar on the click of outside
+
+$(document).ready(function () {
+  $(document).click(function (event) {
+    var clickover = $(event.target);
+
+    var _opened = $(".navbar-collapse").hasClass("show");
+
+    if (_opened === true && !clickover.hasClass("navbar-toggler")) {
+      $("button.navbar-toggler").click();
+    }
+  });
 });
 
 function isMobile() {
@@ -30548,7 +30578,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52071" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54617" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
