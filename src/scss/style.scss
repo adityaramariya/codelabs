@@ -459,6 +459,9 @@ section {
       {
         padding: $gutter__space;
         max-width: 25em;
+        @media(max-width: $breakpoint__small) {
+          margin: auto;
+        }
       }
 
       &__icon

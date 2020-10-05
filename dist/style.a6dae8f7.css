@@ -10683,6 +10683,11 @@ section.primary__bg {
   padding: 20px;
   max-width: 25em;
 }
+@media (max-width: 767px) {
+  .section__article__specialities__item {
+    margin: auto;
+  }
+}
 .section__article__specialities__icon {
   width: 120px;
   height: 120px;
