@@ -459,7 +459,6 @@ section {
       {
         padding: $gutter__space;
         max-width: 25em;
-        margin: auto;
       }
 
       &__icon
@@ -607,6 +606,11 @@ img {
   margin: auto;
   align-self: center;
 
+  .contact__details
+  {
+    a { color: $orange; }
+  }
+
   .oc{
     $this: &;
     &__title
@@ -675,13 +679,27 @@ img {
   font-weight: $font_extra_light;
   text-transform: capitalize;
   font-size: 1.4em;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 .form-group.form-group
 {
   margin-bottom: 3em;
-}
+  position: relative;
 
+  label
+  {
+    left: 13px;
+    top: 8px;
+    font-size: 22px;
+    position: absolute;
+    text-transform: capitalize;
+    margin: 0;
+    @include transition(0.4s);
+  }
+
+}
 
 ::placeholder {
   color: #D8D8D8;
