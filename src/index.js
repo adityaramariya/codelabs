@@ -7,6 +7,7 @@ var myFullpage = new fullpage('#fullpage', {
     menu: '#menu',
     scrollHorizontally: true,
     responsiveWidth: 991,
+    responsiveHeight: 768,
     css3: true,
      scrollingSpeed: 500,
 
@@ -25,7 +26,7 @@ var myFullpage = new fullpage('#fullpage', {
     }
 });
 
-$(document).on('click', '#scrollToTop', function(){
+$(document).on('click', '.scrollToTop', function(){
     fullpage_api.moveTo('home', 1);
 });
 

@@ -30507,6 +30507,7 @@ var myFullpage = new _fullpage.default('#fullpage', {
   menu: '#menu',
   scrollHorizontally: true,
   responsiveWidth: 991,
+  responsiveHeight: 768,
   css3: true,
   scrollingSpeed: 500,
   onLeave: function onLeave(origin) {
@@ -30521,7 +30522,7 @@ var myFullpage = new _fullpage.default('#fullpage', {
     }
   }
 });
-$(document).on('click', '#scrollToTop', function () {
+$(document).on('click', '.scrollToTop', function () {
   fullpage_api.moveTo('home', 1);
 });
 $(document).on('click', '.scrollToContact', function () {
@@ -30578,7 +30579,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55903" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52626" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

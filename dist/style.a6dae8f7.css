@@ -10450,7 +10450,7 @@ header nav.navbar {
   padding: 0;
   width: 100%;
   z-index: 100;
-  position: absolute;
+  position: fixed;
   top: calc(100vh - 70px);
   overflow: hidden;
 }
@@ -10644,6 +10644,9 @@ section.primary__bg {
   justify-content: center;
   position: relative;
   flex: 1 1 100%;
+}
+.section__article.image {
+  background-color: #0E364C;
 }
 @media (min-width: 991px) {
   .section__article {
@@ -10866,11 +10869,17 @@ img {
 
 /* contact form */
 .form__title {
-  font-size: 40px;
+  font-size: 2em;
   line-height: 80px;
   text-transform: capitalize;
   color: #0E364C;
-  margin-bottom: 1em;
+  margin-bottom: 15px;
+}
+@media (min-width: 1450px) {
+  .form__title {
+    font-size: 40px;
+    margin-bottom: 1em;
+  }
 }
 
 .form-control.form-control {
